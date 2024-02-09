@@ -1,0 +1,15 @@
+{
+    "name": "chalanachitra",
+    "version": "0.1.0",
+    "description": "Get cast list by movie name",
+    "permissions": ["storage", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+   
+    "action": {
+      "default_title": "chalanachitra",
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 3
+}
